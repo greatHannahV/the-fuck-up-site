@@ -107,8 +107,8 @@ body{
     
 }
 .img-big {
-    width: 38rem;
-    height: 67.2rem;
+    max-width: 38rem;
+    max-height: 67.2rem;
     position: relative;
 
     
@@ -121,8 +121,8 @@ body{
 }
 .img-little {
     position: relative;
-    width: 23.9rem;
-    height: 36.3rem;
+    max-width: 23.9rem;
+   max-height: 36.3rem;
    
 }
 .img-little img {
