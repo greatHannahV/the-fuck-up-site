@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,9 +6,11 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    height: 100%;
 }
 body{
     max-width: 100%;
+    min-height: 100%;
 }
 
 /* ******************** */
@@ -92,7 +94,7 @@ body{
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 600;
-    font-size: 7rem;
+    font-size: 6.5rem;
     line-height: 1.1;
 
     text-transform: uppercase;
@@ -107,8 +109,8 @@ body{
     
 }
 .img-big {
-    max-width: 38rem;
-    max-height: 67.2rem;
+    min-height: 50%;
+    max-width: 80%;
     position: relative;
 
     
@@ -121,8 +123,8 @@ body{
 }
 .img-little {
     position: relative;
-    max-width: 23.9rem;
-   max-height: 36.3rem;
+    min-height: 45%;
+    max-width: 70%;
    
 }
 .img-little img {
@@ -268,13 +270,14 @@ body{
 
 .arrivals__item {
     display: grid;
-    grid-template-rows: 2fr 0.5fr;
+    grid-template-rows: minmax(35rem,2fr) 0.5fr;
     
 }
 .item__img {
     position: relative;
-    width: 29rem;
-    height: 38rem;
+    /* width: 29rem;
+    height: 38rem; */
+    padding-bottom: 80%;
     box-shadow: 0 1.2rem 3.2rem rgb(0, 0, 0, 0.06);
 }
 .item__img img {
@@ -339,8 +342,8 @@ body{
 }
 .menu-img {
     position: relative;
-    width: 30rem;
-    height: 36.9rem;
+    width: 70%;
+    height: 55%;
     justify-self: center;
    
 }

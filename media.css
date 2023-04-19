@@ -3,8 +3,8 @@
     html {
         font-size: 56.25%;
     }
-    .hero-text{
-        font-size: 5rem;
+    .hero-text span{
+        font-size: 5.5rem;
         
 
     }
@@ -14,17 +14,17 @@
     }
    
     .hero-img {
-        gap: 3rem;
+        gap: 2rem;
         justify-content: center;
 
     }
     .img-big {
-        max-width: 30rem;
-       max-height: 67.2rem;
+        min-height: 70%;
+        max-width: 90%;
     }
     .img-little {
-        max-width: 18.9rem;
-        max-height: 20.3rem;
+        min-height: 30%;
+    max-width: 50%;
         
     }
     .menu-img {
