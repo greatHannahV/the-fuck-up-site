@@ -106,11 +106,12 @@ body{
     gap: 4rem;
     align-items: end;
     justify-content: center;
+    padding-right: 2rem;
     
 }
 .img-big {
     min-height: 50%;
-    max-width: 80%;
+    max-width: 75%;
     position: relative;
 
     
@@ -230,7 +231,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 6rem;
-    line-height: 1.8;
+    line-height: 1.6;
     /* identical to box height */
 
     font-feature-settings: "pnum" on, "lnum" on;
@@ -240,6 +241,7 @@ body{
     color: #000000;
 }
 .content__body-text {
+    display: block;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -273,6 +275,7 @@ body{
     grid-template-rows: minmax(35rem,2fr) 0.5fr;
     
 }
+
 .item__img {
     position: relative;
     /* width: 29rem;
@@ -418,13 +421,12 @@ body{
 }
 .footer {
     overflow: hidden;
-    background-color: #000;
 
+    background-color: #000;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
-
     padding: 0 11.4rem ;
     max-width: 100%;
 
