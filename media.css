@@ -15,12 +15,12 @@
         justify-content: center;
     }
     .img-big {
-        min-height: 70%;
-        max-width: 90%;
+        min-height: 75%;
+        max-width: 100%;
     }
     .img-little {
         min-height: 30%;
-        max-width: 60%;
+        max-width: 65%;
     }
     .menu-img {
         width: 22rem;
@@ -70,8 +70,8 @@
         list-style: none;
     }
 }
-/* 1176px */
-@media (max-width: 73.5em) {
+/* 1200px */
+@media (max-width: 75em) {
     html {
         font-size: 50.25%;
     }
@@ -82,15 +82,18 @@
     }
 
     .hero-img {
-        gap: 1.5rem;
+        gap: 1rem;
         justify-content: center;
+        margin-left: -7rem;
+        padding-right: 5rem;
+        
     }
     .img-big {
         min-height: 60%;
-        max-width: 70%;
+        max-width: 80%;
     }
     .img-little {
-        min-height: 25%;
+        min-height: 35%;
         max-width: 50%;
     }
 }
