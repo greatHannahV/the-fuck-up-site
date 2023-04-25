@@ -10,33 +10,49 @@
     </head>
     <body>
 
-        <div class="header-top"> <p class="top">Free wordwide shipping
-                delivery over
-                $300</p></div>
         <!-- header -->
         <header class="header">
+            <div class="header-body">
+
+                <button class="btn-mob-nav">
+                    <ion-icon class="icon-mob-nav" name="menu-outline"></ion-icon>
+                    <ion-icon class="icon-mob-nav" name="close-outline"></ion-icon>
+                </button>
+                <a href="" class="interior">.interior</a>     
+            
             <nav class="header__menu">
-
-                <h2> .interior</h2>
-                <ul class="menu__list">
-                    <li>About</li>
-                    <li>Lookbook</li>
-                    <li>New in</li>
-                    <li>FurnitureS</li>
-                    <li>Lights</li>
-                    <li>RugS</li>
-                    <li>Decor</li>
-                    <li>Accessories</li>
-
-
+    
+                
+                    <ul class="menu__list">
+                        <li> <a href="" class="main-nav-link">About</a>  </li>
+                        <li> <a href="" class="main-nav-link">Lookbook</a> </li>
+                       <li ><a href="" class="main-nav-link">New</a> </li>
+                    <li> <a href="" class="main-nav-link">FurnitureS</a> </li>
+                    <li> <a href="" class="main-nav-link">Lights</a> </li>
+                    <li> <a href="" class="main-nav-link">RugS</a> </li>
+                    <li> <a href="" class="main-nav-link">Decor</a> </li>
+                    <li> <a href="" class="main-nav-link">Accessories</a> </li>
+                     <li><a href="" class="main-nav-link"><ion-icon class="icon-n" name="person-outline"></ion-icon></a></li>
+                    <li><a href="" class="main-nav-link"><ion-icon class="icon-n" name="search-outline"></ion-icon></a></li>
+                    <li><a href="" class="main-nav-link"><ion-icon class="icon-n" name="cart-outline"></ion-icon></a></li>
+            
                 </ul>
+                
             </nav>
-
+            <div class="icon-nav-mob">
+                <ion-icon class="icon-nav" name="person-outline"></ion-icon>
+               <ion-icon class="icon-nav" name="search-outline"></ion-icon>
+                <ion-icon class="icon-nav" name="cart-outline"></ion-icon>
+        
+            </div>
+        </div>
+            
         </header>
+
         <!-- main -->
 
         <!-- section here -->
-        <main>
+        <main class="main">
 
         <section class="section-hero">
 
@@ -45,7 +61,7 @@
                     home decor products & items
                     for a dream home</span>
                 <br>
-                <button class="hero-btn"> <a href="#" class="btn-link-hero">Explore
+                <button class="hero-btn"> <a href="#info" class="btn-link-hero">Explore
                         our
                         Products</a>
                 </button>
@@ -62,7 +78,7 @@
 
         <!-- *********** -->
         <!-- section-info -->
-        <section class="section-info">
+        <section class="section-info" id="info">
 
             <div class="info-box">
                 <!-- 1 -->
@@ -112,7 +128,7 @@
         </section>
         <!-- ********-->
         <!-- section-arrivals -->
-        <section class="section-arrivals">
+        <section class="section-arrivals" id="arrivals">
             <!-- pre 1 -->
             <div class="arrival__item first-column-arrivals">
         
@@ -211,6 +227,25 @@
 
  </main>
 
+ <!-- section-spoiler -->
+ <div class="section-spoiler">
+    <p class="spoiler-title">Tips for Modern Interior Design</p>
+    <div class="block one">
+        <div class="block-item">
+            <div class="item-title">Modernist Art</div>
+            <div class="item-text">Modernist artists rejected the traditional idealistic view of realism and decided to create expressive artwork in vibrant colors and unlikely forms instead. Abstract art, cubism, and Fauvism capture the essence of the early modernist perspective; a reaction to outdated traditions and the growth of an industrialized society.</div>
+        </div>
+        <div class="block-item">
+            <div class="item-title">Line Focused</div>
+            <div class="item-text">Modern interior design ideas are often built around simple, clean lines. Strong horizontal and vertical lines in modernist architecture are echoed in furniture and décor designs. Cylindrical columns often feature in modern homes; these form clear vertical lines and showcase the revolutionary use of reinforced concrete.
+            </div>
+        </div>
+        <div class="block-item">
+            <div class="item-title">Primary Colors</div>
+            <div class="item-text">Primary colors were at the focus of Bauhaus and De Stijl movements, as a result, modern interiors are known for its bold colors. Add accent furniture pieces, artwork or rugs in red, yellow, blue, black and white to the interior.</div>
+    </div>
+ </div>
+
 <!-- footer -->
 
 <footer class="footer grid-footer">
@@ -294,7 +329,7 @@
         </div>
         <!-- bottom -->
         <div class="footer-bottom">
-            <div class="copyright">&copy; ccccc.com. All rights reserved.</div>
+            <div class="copyright">&copy; HannaVeleva.com. All rights reserved.</div>
             <div class="privacy-policy">Privacy Policy &#8739 Terms of Use</div>
         </div>
 
@@ -305,6 +340,11 @@
 
    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <!-- js -->
+   <script defer src="js/burger.js"></script>
+   <script defer src="js/slider.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </body>
 
 </html>
